@@ -1,0 +1,34 @@
+.navgationContainer {
+  background-color: #475569;
+  color: #ffffff;
+  margin: 0px;
+  padding: 1%;
+  padding-left: 4%;
+}
+
+.navHeading {
+  font-size: 3vw;
+  margin: 0px;
+}
+
+.navUls {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.navUls > li {
+  margin-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+  .navHeading {
+    font-size: 8vw;
+  }
+}
+
+@media (min-width: 768px) {
+  .navHeading {
+    font-size: 4vw;
+  }
+ 
+}
